@@ -1,4 +1,4 @@
-module raylib-game
+module hangman
 
 go 1.22.0
 
