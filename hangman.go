@@ -37,7 +37,6 @@ func initGame() {
 
 	contents := strings.Split(words, "\n")
 	max := big.NewInt(int64(len(contents)))
-	// Generate a random integer and assign it to the global variable
 	randomInt, err := rand.Int(rand.Reader, max)
 
 	if err != nil {
